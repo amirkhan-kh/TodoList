@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Todo List</h2>
+       <div class="forma">
+        <input id="todo-Input-Name" placeholder="Ismingizni kiriting" max="70" minlength="1" type="text">
+        <input class="todoInputAge" placeholder="ID raqaminizni kiriting" max="70" minlength="1" type="password">
+        <input id="time" type="time">
+        <button id="addbtn">Kiritilsin</button>
+       </div>
+        
+    </div>
+    <div class="card">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="bodyTd">
+                <tr >
+                    <td id="idNumber">1</td>
+                    <td style="width: 230px; padding: 0;"><p id="output"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output2"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output3"></p></td>
+                </tr>
+                <tr >
+                    <td id="idNumber">2</td>
+                    <td style="width: 230px; padding: 0;"><p id="output"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output2"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output3"></p></td>
+                </tr>
+                <tr >
+                    <td id="idNumber">3</td>
+                    <td style="width: 230px; padding: 0;"><p id="output"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output2"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output3"></p></td>
+                </tr>
+                <tr >
+                    <td id="idNumber">4</td>
+                    <td style="width: 230px; padding: 0;"><p id="output"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output2"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output3"></p></td>
+                </tr>
+                <tr >
+                    <td id="idNumber">5</td>
+                    <td style="width: 230px; padding: 0;"><p id="output"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output2"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output3"></p></td>
+                </tr>
+                <tr >
+                    <td id="idNumber">6</td>
+                    <td style="width: 230px; padding: 0;"><p id="output"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output2"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output3"></p></td>
+                </tr>
+                <tr >
+                    <td >7</td>
+                    <td style="width: 230px; padding: 0;"><p id="output"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output2"></p></td>
+                    <td style="width: 230px; padding: 0;"><p id="output3"></p></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="bott">
+            <button id="delate" onclick="deleteInput()">Delate</button>
+        </div>
+    </div>
+        <!-- <p id="output"></p> -->
+    <script src="./app.js"></script>
+</body>
+</html>

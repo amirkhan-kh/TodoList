@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image/bde9c482589903.Y3JvcCw4MDgsNjMyLDAsMA.jpg);;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 0 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.274);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(30px);
+}
+h2{
+    margin-top: 20px;
+    font-size: 45px;
+    font-family:sans-serif;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+#todo-Input-Name{
+    padding: 10px 12px;
+    border:none;
+}
+#todo-Input-Name:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.todoInputAge{
+    padding: 10px 12px;
+    border:none;
+}
+.todoInputAge:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#addbtn{
+    padding: 10px 12px;
+    border:none;
+    cursor: pointer;
+}
+#addbtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card{
+    width: 700px;
+    height: 500px;
+    background: white;
+    margin-top: 80px;
+    margin-right: 35px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+    justify-content: center;
+    padding: 10px;
+}
+table{
+    width: 680px;
+    height: 90%;
+    background: white;
+}
+td{
+    padding: 1px 35px;
+}   
+.bott{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 100px;
+} 
+#delinput{
+    border: none;
+    width: 80px;
+    padding: 8px 10px;
+    color: black;
+}
+#delate{
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius:8px;
+    background: rgb(85, 29, 29);
+    color: aliceblue;
+}
